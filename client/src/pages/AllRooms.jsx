@@ -76,12 +76,11 @@ const AllRooms = () => {
                 <p className="ml-2 text-xs ">200+ reviews</p>
               </div>
               <p className="flex text-gray-500/90">
-                {' '}
                 <img src={assets.locationIcon} alt="" /> {room.hotel.address}
               </p>
               <div className="flex flex-wrap items-center mt-1 mb-1 gap-5">
                 {room.amenities.map((item, index) => (
-                  <div className="flex items-center gap-1 px-2 py-1 rounded-lg bg-gray-200">
+                  <div key={index} className="flex items-center gap-1 px-2 py-1 rounded-lg bg-gray-200">
                     <img src={facilityIcons[item]} alt="" />
                     <p>{item}</p>
                   </div>
