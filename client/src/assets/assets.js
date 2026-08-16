@@ -119,8 +119,8 @@ export const userDummyData = {
     "email": "user.greatstack@gmail.com",
     "image": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvdXBsb2FkZWQvaW1nXzJ2N2c5YVpSSEFVYVUxbmVYZ2JkSVVuWnFzWSJ9",
     "role": "hotelOwner",
-    "createdAt": "2025-03-25T09:29:16.367Z",
-    "updatedAt": "2025-04-10T06:34:48.719Z",
+    "createdAt": "2026-03-25T09:29:16.367Z",
+    "updatedAt": "2026-04-10T06:34:48.719Z",
     "__v": 1,
     "recentSearchedCities": [
         "New York"
@@ -135,8 +135,8 @@ export const hotelDummyData = {
     "contact": "+0123456789",
     "owner": userDummyData,
     "city": "New York",
-    "createdAt": "2025-04-10T06:22:11.663Z",
-    "updatedAt": "2025-04-10T06:22:11.663Z",
+    "createdAt": "2026-04-10T06:22:11.663Z",
+    "updatedAt": "2026-04-10T06:22:11.663Z",
     "__v": 0
 }
 
@@ -150,8 +150,8 @@ export const roomsDummyData = [
         "amenities": ["Room Service", "Mountain View", "Pool Access"],
         "images": [roomImg1, roomImg2, roomImg3, roomImg4],
         "isAvailable": true,
-        "createdAt": "2025-04-10T06:26:04.013Z",
-        "updatedAt": "2025-04-10T06:26:04.013Z",
+        "createdAt": "2026-04-10T06:26:04.013Z",
+        "updatedAt": "2026-04-10T06:26:04.013Z",
         "__v": 0
     },
     {
@@ -162,8 +162,8 @@ export const roomsDummyData = [
         "amenities": ["Room Service", "Mountain View", "Pool Access"],
         "images": [roomImg2, roomImg3, roomImg4, roomImg1],
         "isAvailable": true,
-        "createdAt": "2025-04-10T06:25:22.593Z",
-        "updatedAt": "2025-04-10T06:25:22.593Z",
+        "createdAt": "2026-04-10T06:25:22.593Z",
+        "updatedAt": "2026-04-10T06:25:22.593Z",
         "__v": 0
     },
     {
@@ -174,8 +174,8 @@ export const roomsDummyData = [
         "amenities": ["Free WiFi", "Free Breakfast", "Room Service"],
         "images": [roomImg3, roomImg4, roomImg1, roomImg2],
         "isAvailable": true,
-        "createdAt": "2025-04-10T06:24:06.285Z",
-        "updatedAt": "2025-04-10T06:24:06.285Z",
+        "createdAt": "2026-04-10T06:24:06.285Z",
+        "updatedAt": "2026-04-10T06:24:06.285Z",
         "__v": 0
     },
     {
@@ -186,8 +186,8 @@ export const roomsDummyData = [
         "amenities": ["Free WiFi", "Room Service", "Pool Access"],
         "images": [roomImg4, roomImg1, roomImg2, roomImg3],
         "isAvailable": true,
-        "createdAt": "2025-04-10T06:23:20.252Z",
-        "updatedAt": "2025-04-10T06:23:20.252Z",
+        "createdAt": "2026-04-10T06:23:20.252Z",
+        "updatedAt": "2026-04-10T06:23:20.252Z",
         "__v": 0
     }
 ]
@@ -201,15 +201,15 @@ export const userBookingsDummyData = [
         "user": userDummyData,
         "room": roomsDummyData[1],
         "hotel": hotelDummyData,
-        "checkInDate": "2025-04-30T00:00:00.000Z",
-        "checkOutDate": "2025-05-01T00:00:00.000Z",
+        "checkInDate": "2026-04-30T00:00:00.000Z",
+        "checkOutDate": "2026-05-01T00:00:00.000Z",
         "totalPrice": 299,
-        "guests": 1,
+        "guests": 2,
         "status": "pending",
         "paymentMethod": "Stripe",
         "isPaid": true,
-        "createdAt": "2025-04-10T06:42:01.529Z",
-        "updatedAt": "2025-04-10T06:43:54.520Z",
+        "createdAt": "2026-04-10T06:42:01.529Z",
+        "updatedAt": "2026-04-10T06:43:54.520Z",
         "__v": 0
     },
     {
@@ -217,10 +217,10 @@ export const userBookingsDummyData = [
         "user": userDummyData,
         "room": roomsDummyData[0],
         "hotel": hotelDummyData,
-        "checkInDate": "2025-04-27T00:00:00.000Z",
-        "checkOutDate": "2025-04-28T00:00:00.000Z",
+        "checkInDate": "2026-04-27T00:00:00.000Z",
+        "checkOutDate": "2026-04-28T00:00:00.000Z",
         "totalPrice": 399,
-        "guests": 1,
+        "guests": 2,
         "status": "pending",
         "paymentMethod": "Pay At Hotel",
         "isPaid": false,
@@ -233,15 +233,15 @@ export const userBookingsDummyData = [
         "user": userDummyData,
         "room": roomsDummyData[3],
         "hotel": hotelDummyData,
-        "checkInDate": "2025-04-11T00:00:00.000Z",
-        "checkOutDate": "2025-04-12T00:00:00.000Z",
+        "checkInDate": "2026-04-11T00:00:00.000Z",
+        "checkOutDate": "2026-04-12T00:00:00.000Z",
         "totalPrice": 199,
         "guests": 1,
         "status": "pending",
         "paymentMethod": "Pay At Hotel",
         "isPaid": false,
-        "createdAt": "2025-04-10T06:41:20.501Z",
-        "updatedAt": "2025-04-10T06:41:20.501Z",
+        "createdAt": "2026-04-10T06:41:20.501Z",
+        "updatedAt": "2026-04-10T06:41:20.501Z",
         "__v": 0
     }
 ]
