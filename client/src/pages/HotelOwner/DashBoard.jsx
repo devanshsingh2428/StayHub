@@ -14,8 +14,8 @@ const DashBoard = () => {
       </div>
 
       <div className="flex gap-5 my-10">
-        <div className="flex gap-5 border rounded border-gray-200 bg-blue-100/40 px-5 py-5">
-          <img src={assets.totalBookingIcon} alt="" />
+        <div className="flex gap-5 items-center border rounded border-gray-200 bg-blue-100/40 px-2 py-2 sm:px-5 sm:py-5">
+          <img className='hidden sm:block' src={assets.totalBookingIcon} alt="" />
           <div className="flex flex-col">
             <p className="text-blue-500 font-semibold">Total Bookings</p>
             <span className="text-gray-400">
@@ -23,8 +23,8 @@ const DashBoard = () => {
             </span>
           </div>
         </div>
-        <div className="flex gap-5 border rounded border-gray-200 bg-blue-100/40 px-5 py-5">
-          <img src={assets.totalBookingIcon} alt="" />
+        <div className="flex gap-5 border rounded border-gray-200 bg-blue-100/40 px-2 py-2 sm:px-5 sm:py-5">
+          <img className='hidden sm:block' src={assets.totalBookingIcon} alt="" />
           <div className="flex flex-col">
             <p className="text-blue-500 font-semibold">Total Revenue</p>
             <span className="text-gray-400">
@@ -34,7 +34,7 @@ const DashBoard = () => {
         </div>        
       </div>
       <h2 className="text-gray-600 text-2xl">Recent Bookings</h2>
-        <div className='w-full max-w-3xl text-left border border-gray-300 rounded-lg max-h-100 overflow-y-scroll mt-5' >
+        <div className='w-full max-w-3xl  max-[400px]:w-60  max-[480px]:w-70  text-left border border-gray-300 rounded-lg max-h-100 overflow-y-scroll mt-5' >
             <table className='w-full' > 
                 <thead className='bg-gray-50' >
                     <tr>
